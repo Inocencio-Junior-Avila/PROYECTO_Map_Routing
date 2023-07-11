@@ -1,10 +1,14 @@
-## Como ejecutar
+## Instalaciones que debes hacer Antes de ejecutar el proyecto
 
-Descarga la carpeta o clona el repo, y abre una terminal ahi y luego ejecuta:
 ```
-python -m pip install --upgrade virtualenv
+pip install virtualenv
 python -m virtualenv env
 
-pip install pyqt6 pyqt6-webengine folium osmnx
+pip install pyqt6-webengine
+pip install folium
+pip install osmnx
+
+#Para su Ejecucion
 python main.py
+
 ```
