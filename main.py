@@ -2,11 +2,11 @@
 file: main.py
 """
 import sys
-import VistaU
-from VistaU import Terrenas
+import Vista
+from Vista import Terrenas
 
 if __name__ == '__main__':
-    app = VistaU.QApplication(sys.argv)
+    app = Vista.QApplication(sys.argv)
     app.setStyleSheet('''
         QWidget {
             font-size: 25px;

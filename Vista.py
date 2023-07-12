@@ -3,7 +3,7 @@ import osmnx as ox
 import folium
 from PyQt6.QtWidgets import QApplication, QWidget, QHBoxLayout, QVBoxLayout, QPushButton, QLineEdit
 from PyQt6.QtWebEngineWidgets import QWebEngineView
-from VistaD import Graph
+from Controlador import Graph
 from PyQt6.QtWidgets import QDialog, QVBoxLayout, QLabel, QPushButton, QMessageBox
 
 class ErrorDialog(QDialog):
